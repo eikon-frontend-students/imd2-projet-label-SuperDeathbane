@@ -34,7 +34,21 @@ body {
   width: 200px;
   max-width: 100%;
 }
-
+h3{
+  color: #898989;
+font-family: "Nexa Text";
+font-size: 96px;
+font-weight: 800;
+text-transform: uppercase;
+line-height: 0.7;
+}
+h4{
+  color:  #898989;
+font-size: 96px;
+font-weight: 100;
+text-transform: uppercase;
+line-height: 0.7;
+}
 
 .navbar {
   display: flex;
@@ -57,7 +71,6 @@ body {
 
 .nav-links li a {
   color: #FFFDFF;
-
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 800;
@@ -107,6 +120,35 @@ footer{
   display: flex;
   justify-content: space-between;
 }
+.artistes-vedettes{
+  display: flex;
+  flex-direction: column;
+  margin: 60px;
+  gap: 30px;
+}
+.card {
+  background: white;
+}
+.contenu-card{
+  display: flex;
+  justify-content: space-between;
+}
+.nom-complet{
+display: flex;
+flex-direction: column;
+gap: 14px;
+margin: 0;
+padding: 0;
+}
+.info-artiste{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.card img{
+  width: 500px;
+}
+
 
 @media (max-width: 900px) {
   .navbar {
@@ -129,8 +171,4 @@ footer{
   gap: 24px;
 }
 
-}
-
-.card {
-  background: white;
 }
