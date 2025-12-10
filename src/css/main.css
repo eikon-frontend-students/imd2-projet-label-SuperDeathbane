@@ -252,12 +252,9 @@ display: flex;
 gap: 60px;
 flex-direction: column;
 justify-content: space-between;
+width: 100%;
 }
-/*
-.card img{
-  width: 500px;
-}
-*/
+
 @media (max-width: 1290px) {
  .nom-complet h3,
   .nom-complet h4 {
@@ -266,21 +263,21 @@ justify-content: space-between;
   }
   .card img {
     width: 100%;
-    max-width: 550px; /* taille intermédiaire */
+    max-width: 550px;
     height: auto;
   }
 .info-artiste{
 gap: 30px;
 }
 }
-@media (max-width: 970px) {
+/* @media (max-width: 970px) {
  .nom-complet h3,
   .nom-complet h4 {
     font-size: 48px;
-    line-height: 1;
+  
   }
-}
-@media (max-width: 900px) {
+} */
+@media (max-width: 970px) {
   .navbar {
     flex-direction: column;
     align-items: flex-start;
