@@ -1,4 +1,4 @@
-<article class="card">
+<article class="card {{ black ? 'card-black' : '' }}">
   <div class="contenu-card">
   <img src="{{image}}" alt="">
   <div class="info-artiste">
@@ -10,9 +10,9 @@
     <li>Le Roi Lion</li>
     <li>Gladiator</li>
     <li>Inception</li>
-    <li>Batman v Superman</li>
+    <li class="last">Batman v Superman</li>
   </ul>
-  <a href="#">En savoir plus</a>
+  <a class="more" href="#">En savoir plus</a>
   </div>
     </div>
 </article>
