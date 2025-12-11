@@ -18,11 +18,6 @@ header {
   width: 338px;
 }
 
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-}
 
 body {
   background-color: black;
@@ -34,20 +29,20 @@ body {
   width: 200px;
   max-width: 100%;
 }
-h3{
-color: #898989;
-font-family: nexa-text, sans-serif;
-font-size: 96px;
-font-weight: 800;
-text-transform: uppercase;
-line-height: 0.7;
+h3,
+h4 {
+  color: #898989;
+  font-size: 96px;
+  text-transform: uppercase;
+  line-height: 0.7;
 }
-h4{
-  color:  #898989;
-font-size: 96px;
-font-weight: 100;
-text-transform: uppercase;
-line-height: 0.7;
+
+h3 {
+  font-weight: 800;
+}
+
+h4 {
+  font-weight: 100;
 }
 .card ul {
   list-style: none;
@@ -163,10 +158,14 @@ footer {
 .social-media {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 48px;
 }
-
+.social-media img {
+  width: 36px;
+  height: auto;
+}
 .footer-separator {
   width: 100%;
   border: none;
@@ -270,13 +269,7 @@ width: 100%;
 gap: 30px;
 }
 }
-/* @media (max-width: 970px) {
- .nom-complet h3,
-  .nom-complet h4 {
-    font-size: 48px;
-  
-  }
-} */
+
 @media (max-width: 970px) {
   .navbar {
     flex-direction: column;
@@ -298,7 +291,7 @@ gap: 30px;
 
   .artistes-vedettes {
     margin: 30px 20px;
-    gap: 20px;
+    gap: 120px;
   }
  .card {
     width: fit-content;
@@ -324,7 +317,7 @@ gap: 30px;
 
   .info-artiste {
     align-items: center;
-    gap: 20px;
+    gap: 30px;
   }
 
   ul li {
@@ -350,5 +343,7 @@ gap: 30px;
   .legal-links {
     justify-content: center;
   }
-
+  .social-media img {
+    width: 24px;
+  }
 }

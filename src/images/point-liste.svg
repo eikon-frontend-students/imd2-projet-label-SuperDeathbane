@@ -1,3 +1,14 @@
-<svg width="19" height="19" viewBox="0 0 19 19" fill="none" xmlns="http://www.w3.org/2000/svg">
-<circle cx="9.5" cy="9.5" r="8" stroke="#FE002A" stroke-width="3"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Calque_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 19 19">
+  <!-- Generator: Adobe Illustrator 30.0.0, SVG Export Plug-In . SVG Version: 2.1.1 Build 123)  -->
+  <defs>
+    <style>
+      .st0 {
+        fill: #fe002a;
+        stroke: #fe002a;
+        stroke-width: 3px;
+      }
+    </style>
+  </defs>
+  <circle class="st0" cx="9.5" cy="9.5" r="8"/>
 </svg>
